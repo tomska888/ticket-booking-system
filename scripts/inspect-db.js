@@ -1,4 +1,4 @@
-const Database = require('better-sqlite3');
+import Database from 'better-sqlite3';
 const db = new Database('data/movies.db', { readonly: true });
 
 // 1) List all non-migration tables
