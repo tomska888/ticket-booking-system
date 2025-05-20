@@ -12,7 +12,8 @@
     "migrate:latest": "tsx src/database/migrate/bin",
     "gen:types": "kysely-codegen --camel-case --dialect sqlite --out-file src/database/types.ts",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "inspect-db": "node scripts/inspect-db.js"
   },
   "keywords": [],
   "author": "",
